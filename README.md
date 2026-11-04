@@ -51,7 +51,7 @@ Deleting a quiz also deletes its questions and saved student results.
 
 ## Use PostgreSQL (optional)
 1. Create a database named `grammarmaster`.
-2. Open `src/main/resources/application-postgres.properties`.
+2. Open `src/main/resources/application.properties`.
 3. Replace `CHANGE_ME` with your local PostgreSQL password.
 4. Run with the `postgres` profile:
    `mvn spring-boot:run -Dspring-boot.run.profiles=postgres`
